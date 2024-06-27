@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .leftSection {
+    flex: 1;
+    background-color: #2c2a54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginBox {
+    background: #3c3a72;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right : 10px;
+  }
+  
+  .loginTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right : 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .rememberMe {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .rememberMe input {
+    margin-right: 10px;
+  }
+  
+  .loginButton {
+    background-color: #5d83d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signupPrompt {
+    margin-top: 20px;
+    color: #bdbddb;
+  }
+  
+  .signupPrompt a {
+    color: #5d83d8;
+    text-decoration: none;
+  }
+  
+  .rightSection {
+    flex: 1;
+    background: url('1.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: black;
+  }
+  
+  .infoBox {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .imageBox {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .imageBox img {
+    max-width: 45%;
+    border-radius: 10px;
+  }
